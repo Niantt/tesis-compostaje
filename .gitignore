@@ -1,0 +1,10 @@
+# Resultados generados por los scripts (se recrean al ejecutarlos)
+salida/
+salida_changepoint/
+
+# Datos originales: no subir sin autorización del profesor guía
+*.xlsx
+
+# Archivos de Python
+__pycache__/
+*.pyc
