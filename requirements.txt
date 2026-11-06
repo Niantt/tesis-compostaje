@@ -6,3 +6,7 @@ openpyxl
 ruptures
 scikit-learn
 tslearn
+PySide6
+pyqtgraph
+pytest
+pytest-qt

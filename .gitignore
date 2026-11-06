@@ -2,10 +2,26 @@
 salida/
 salida_changepoint/
 salida_dtw/
+salida_etapa3/
+etapa2/salida*/
 
-# Datos originales: no subir sin autorización del profesor guía
+# Datos originales: no se suben al repositorio
 *.xlsx
 
-# Archivos de Python
+# Modelo de fases de la app: se genera desde los datos con experimentos/entrenar_modelo.py
+app/recursos/*.npz
+
+# Python
 __pycache__/
 *.pyc
+.pytest_cache/
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+informe/
+informe/
+informe/
