@@ -45,7 +45,7 @@ Se implementan y contrastan tres técnicas de análisis de series temporales:
 ├── experimentos/          Evaluación de técnicas, rendimiento y entrenamiento del modelo
 ├── tests/                 Pruebas unitarias, de integración y de regresión (pytest)
 ├── etapa2/                Scripts de la Etapa 2, sin cambios (línea base "antes")
-└── informe/               Informe LaTeX de la etapa vigente
+
 ```
 
 ## Instalación
@@ -96,8 +96,3 @@ python preprocesamiento.py ../Compilacion_temperatura_compost.xlsx
 python changepoint.py
 python dtw_fases.py
 ```
-
-## Informe
-
-El informe se compila desde `informe/main.tex`, con `pdflatex` o en Overleaf.
-Los diagramas se editan desde `informe/figuras/diagramas/fuentes/`.
